@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="cu.css"> <!-- Verifique se o nome do arquivo CSS está correto -->
+</head>
+<body>
+    <div class="logo-container">
+        <h1 class="logo">IMC</h1>
+    </div>
+    
+    <div class="calculator">
+        <h2>Calculadora de IMC</h2>
+        <input type="number" id="weight" placeholder="Peso (kg)" required>
+        <input type="number" id="height" placeholder="Altura (m)" required>
+        <button onclick="calculateIMC()">Calcular IMC</button>
+        <div id="result" class="result"></div>
+        <div class="button-group">
+            <button onclick="resetInputs()">Calcular Novamente</button>
+            <button onclick="finalize()">Finalizar</button>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Calculadora IMC © Guilherme Cruz 2024</p>
+    </footer>
+    
+    <script src="ladora.js"> <!-- Verifique se o nome do arquivo JS está correto -->
+    </script>
+</body>
+</html>

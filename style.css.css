@@ -1,0 +1,84 @@
+body { 
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, rgb(10, 10, 29), rgb(11, 85, 223));
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    min-height: 100vh;
+    margin: 0; /* Remove margens padrão do body */
+}
+
+.calculator {
+    width: 400px; /* Largura da calculadora */
+    padding: 20px;
+    border-radius: 10px;
+    background: #007BFF;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+input {
+    width: calc(100% - 20px); /* Largura do input com margem */
+    padding: 10px;
+    margin: 10px auto; /* Centraliza horizontalmente */
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que padding não afete a largura total */
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #0056b3;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+    width: calc(100% - 20px); /* Largura do botão com margem */
+    margin: 10px auto; /* Centraliza horizontalmente */
+}
+
+button:hover {
+    background: #004494;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    width: 100%; /* Faz o rodapé ocupar toda a largura */
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    bottom: 0; /* Posiciona o rodapé na parte inferior da tela */
+}
+
+.logo-container {
+    text-align: center; /* Centraliza o texto da logo */
+    margin-bottom: 63px; /* Espaço entre a logo e a calculadora */
+}
+
+.logo {
+    font-size: 40px; /* Tamanho da fonte da logo */
+    color: #fff; /* Cor do texto da logo */
+    text-shadow: 8px 20px 4px rgba(19, 10, 10, 0.5); /* Sombra para dar destaque */
+}
+
+
+
+.button-group {
+    margin-top: 20px; /* Espaço entre os botões e o resultado */
+}
+
+.button-group button {
+    width: calc(48% - 10px); /* Largura dos botões com margem */
+    margin: 0 1%; /* Espaço entre os botões */
+}
+
